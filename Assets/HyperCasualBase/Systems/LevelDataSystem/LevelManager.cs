@@ -12,7 +12,7 @@ public class LevelManager : Singleton<LevelManager>
     [BoxGroup("Level Data")]
     [SerializeField]
     [InlineEditor]
-    private LevelData LevelData;
+    public LevelData LevelData;
 
     public Level CurrentLevel { get { return LevelData.Levels[LevelIndex]; } }
 
@@ -92,7 +92,15 @@ public class LevelManager : Singleton<LevelManager>
         SceneController.Instance.LoadScene(CurrentLevel.LoadLevelID);
     }
 
-    [Button]
+	public void LoadGivenLevel(int givenLevel)
+	{
+		FinishLevel();
+
+
+		SceneController.Instance.LoadScene(LevelData.Levels[givenLevel].LoadLevelID);
+	}
+
+	[Button]
     public void LoadPreviousLevel()
     {
         FinishLevel();

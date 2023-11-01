@@ -37,7 +37,7 @@ public class LevelPanel : AdvancePanel
     public override void ShowPanelAnimated()
     {
         base.ShowPanelAnimated();
-        LevelDisplayText.SetText("Level " + PlayerPrefs.GetInt(PlayerPrefKeys.FakeLevel, 1));
+        LevelDisplayText.SetText("Level " + (LevelManager.Instance.LevelIndex + 1));
     }
 
     private void SetFakeLevel()

@@ -13,25 +13,25 @@ MonoBehaviour:
   m_Name: BaseLevelData
   m_EditorClassIdentifier: 
   Levels:
-  - LevelTypes: 01000000
+  - LevelTypes: 
     LoadLevelID: Level 0.0
-  - LevelTypes: 01000000
+  - LevelTypes: 
     LoadLevelID: Level 0.1
-  - LevelTypes: 01000000
+  - LevelTypes: 
     LoadLevelID: Level 0.2
-  - LevelTypes: 01000000
+  - LevelTypes: 
     LoadLevelID: Level 0.3
-  - LevelTypes: 01000000
+  - LevelTypes: 
     LoadLevelID: Level 0.4
-  - LevelTypes: 01000000
+  - LevelTypes: 
     LoadLevelID: Level 0.5
-  - LevelTypes: 01000000
+  - LevelTypes: 
     LoadLevelID: Level 0.6
-  - LevelTypes: 01000000
+  - LevelTypes: 
     LoadLevelID: Level 0.7
-  - LevelTypes: 01000000
+  - LevelTypes: 
     LoadLevelID: Level 0.8
-  - LevelTypes: 01000000
+  - LevelTypes: 
     LoadLevelID: Level 0.9
   - LevelTypes: 
     LoadLevelID: Level 1
